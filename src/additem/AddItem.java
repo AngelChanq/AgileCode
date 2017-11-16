@@ -81,7 +81,7 @@ public class AddItem {
          list.add(new Item("Fish&Chips", "RM 15.90", "Halal", "Fresh Fish and suitable to any age"));
           
       do{ 
-        for(int i =0; i<list.size();i++){
+        for(int i =1; i<list.size();i++){
            
             System.out.println("====================================================================================");
             System.out.println(i+".\t"+list.get(i).getName()+".\t"+ list.get(i).getPrice()+".\t"+list.get(i).getHalal()+".\t"+list.get(i).getDESP());
